@@ -1,0 +1,13 @@
+train: /Users/ali/Desktop/deeplearning/data_person/train/images
+val: /Users/ali/Desktop/deeplearning/data_person/valid/images
+test: /Users/ali/Desktop/deeplearning/data_person/test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: person-detection-bb3is
+  project: person-new-y0emu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/person-detection-bb3is/person-new-y0emu/dataset/1
